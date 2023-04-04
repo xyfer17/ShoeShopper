@@ -7,7 +7,10 @@
 
 .footer_title{
     line-height: 1.5rem;
-    font-size: 0.68rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+
 }
 
 .footer_content{
@@ -15,10 +18,33 @@
     
 }
 
+
 .footer_content span{
     color: #757575;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
+    cursor: pointer;
+}
+
+.footer_content span:hover{
+    color: #fff;
+}
+
+
+
+
+.social-link-icon {
+    fill: #7e7e7e;
+    transition: fill .2s;
+}
+
+.social-link-icon:hover{
+    fill: #fff;
+    
+}
+
+.footer__location span{
+    font-size: 0.8rem;
 }
 
 
