@@ -1,0 +1,14 @@
+.home_container{
+    padding: 10px 40px;
+}
+
+.home_tagline{
+    text-align: center;
+}
+
+.home_tagline h3{
+    font-size: 72px;
+    line-height: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
