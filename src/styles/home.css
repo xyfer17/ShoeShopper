@@ -1,14 +1,41 @@
 .home_container{
-    padding: 10px 40px;
+    padding: 40px 40px;
 }
 
 .home_tagline{
     text-align: center;
 }
 
+.home_tagline .subtitle{
+    line-height: 2px;
+}
+
 .home_tagline h3{
     font-size: 72px;
     line-height: 60px;
-    font-weight: 500;
+    font-weight: 800;
     text-transform: uppercase;
 }
+
+.shop_button button{
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+        
+    justify-content: center;
+        
+    align-items: center;
+    background: #111;
+    color: #fff;
+    
+}
+
+.shop_button button:hover{
+    background: #6d6b6b;
+}
+
+.sale_tagline span{
+    font-size: 1.38rem;
+    font-weight: 400;
+}
+

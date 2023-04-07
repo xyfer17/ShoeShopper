@@ -104,6 +104,37 @@ a {
     font-size: 13px;
 }
 
+.heart__icon,
+.cart__icon,
+.mobile__menu{
+    
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.heart__icon:hover,
+.cart__icon:hover,
+.mobile__menu:hover {
+    background-color: #e5e5e5;
+   
+
+}
+
+.nav__right span  svg{
+    height: 32px;
+    width: 32px;
+} 
+
+.cart__badge{
+    position: absolute;
+    
+    align-items: center;
+    margin-top: 9px;
+    margin-left: -1.2rem;
+    font-size: 0.8rem;
+}
 
 @media only screen and (max-width:992px){
 

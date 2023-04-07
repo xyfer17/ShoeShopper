@@ -27,6 +27,12 @@ const Home = () => {
               </div>
             </div>
           </Col>
+          <Col lg="12">
+            <div className="sale_tagline d-flex align-items-center justify-content-between">
+              <span>The Latest & Greatest</span>
+              <span>Shop</span>
+            </div>
+          </Col>
         </Row>
       </div>
     </Helmet>
