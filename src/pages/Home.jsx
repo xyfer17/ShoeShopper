@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "../components/Helmet";
 import { Col, Row } from "reactstrap";
 import "../styles/home.css";
+import ProductCard from "../components/UI/ProductCard";
 
 const Home = () => {
   return (
@@ -32,6 +33,9 @@ const Home = () => {
               <span>The Latest & Greatest</span>
               <span>Shop</span>
             </div>
+          </Col>
+          <Col lg="4">
+            <ProductCard />
           </Col>
         </Row>
       </div>
