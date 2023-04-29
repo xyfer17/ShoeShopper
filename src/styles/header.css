@@ -10,6 +10,19 @@
     width: 100%;
 }
 
+.sticky{
+  
+    position: fixed;
+    top: 0;
+    
+    z-index: 9;
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    transition: transform .15s ease;
+    padding: 10px 40px;
+}
+
 a {
     color: #111;
     cursor: pointer;
@@ -111,14 +124,14 @@ a {
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
-    
+    text-decoration: none;
 }
 
 .heart__icon:hover,
 .cart__icon:hover,
 .mobile__menu:hover {
     background-color: #e5e5e5;
-   
+    
 
 }
 
@@ -186,6 +199,10 @@ a {
     .nav__wrapper{
         padding: 10px 16px;
     }
+
+        .sticky {
+            padding: 10px 16px;
+        }
 
     .slider_button span{
         display: none;

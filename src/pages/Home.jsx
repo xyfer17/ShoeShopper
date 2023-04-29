@@ -109,7 +109,7 @@ const Home = () => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       d="M15.525 18.966L8.558 12l6.967-6.967"
                     ></path>
                   </svg>
@@ -130,7 +130,7 @@ const Home = () => {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       d="M8.474 18.966L15.44 12 8.474 5.033"
                     ></path>
                   </svg>
