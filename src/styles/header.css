@@ -186,6 +186,10 @@ a {
     .nav__wrapper{
         padding: 10px 16px;
     }
+
+    .slider_button span{
+        display: none;
+    }
 }
 
 

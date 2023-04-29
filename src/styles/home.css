@@ -1,13 +1,25 @@
 .home_container{
-    padding: 40px 40px;
+    padding: 0px 40px;
 }
 
 .home_tagline{
     text-align: center;
 }
 
+.home_img img{
+    width: 100%;
+        height: 100%;
+        
+        object-fit: cover;
+        transition: opacity .5s ease .3s;
+       
+        will-change: opacity;
+}
+
+
 .home_tagline .subtitle{
-    line-height: 2px;
+    margin-top: 2rem;
+    line-height: 1rem;
 }
 
 .home_tagline h3{
@@ -50,3 +62,17 @@
     transition: background-color 250ms cubic-bezier(.25, .1, .25, 1);
 }
 
+
+
+@media only screen and (max-width: 768px) {
+   
+
+    .home_container {
+        padding: 0 16px;
+    }
+
+        .sale_tagline span {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+}
