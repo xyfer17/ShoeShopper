@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import SwiperNotification from "./UI/SwiperNotification";
 
 import "../styles/header.css";
 
@@ -137,10 +138,7 @@ const Header = () => {
           </span>
         </div>
       </div>
-      <div className="tag_line">
-        <h5>Hello Nike App</h5>
-        <span>Download the App for better experience</span>
-      </div>
+      <SwiperNotification />
     </header>
   );
 };

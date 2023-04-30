@@ -108,9 +108,9 @@ a {
 }
 
 .tag_line h5{
-    font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
 }
 
 .tag_line span{
